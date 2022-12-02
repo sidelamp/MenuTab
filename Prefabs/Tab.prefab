@@ -76,7 +76,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 64, y: 0}
+  m_SizeDelta: {x: 321, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &1018303476947900222
 CanvasRenderer:
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aeec3e9464adfc0418d06a96ef6af305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 956a0c1bb615073408e0c93bd7eaa3f9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -175,8 +175,8 @@ MonoBehaviour:
   body: {fileID: 6772609411180405427}
   button: {fileID: 8821254029915526539}
   _icon: {fileID: 1722776030096591842}
-  _active: {fileID: 21300000, guid: 5a8dd45f5eb2eaf43951fa9c6fcfd3b6, type: 3}
-  _inactive: {fileID: 21300000, guid: aeec3e9464adfc0418d06a96ef6af305, type: 3}
+  _active: {fileID: 21300000, guid: 941c527e25e4db24284982d875a1f256, type: 3}
+  _inactive: {fileID: 21300000, guid: 956a0c1bb615073408e0c93bd7eaa3f9, type: 3}
 --- !u!114 &8158349517009229766
 MonoBehaviour:
   m_ObjectHideFlags: 0
