@@ -9,9 +9,10 @@ namespace MenuTab.Scripts.Factories
     public class MenuFactory
     {
         private const string _path = "Settings/MenuTab";
+        private const string _eventSystem = "EventSystem";
 
         [MenuItem("GameObject/UI/TabMenu", priority = 10)]
-        private static void CreateMenu(MenuCommand menuCommand)
+        private static void CreateMenu()
         {
             var parent = GetParent();
             var settings = Resources.Load<MenuTabSettings>(_path);
@@ -51,7 +52,7 @@ namespace MenuTab.Scripts.Factories
         {
             if (Object.FindObjectOfType<EventSystem>() == null)
             {
-                var es = new GameObject("EventSystem", typeof(EventSystem));
+                var es = new GameObject(_eventSystem, typeof(EventSystem));
                 es.AddComponent<StandaloneInputModule>();
             }
         }

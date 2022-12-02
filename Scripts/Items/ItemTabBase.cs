@@ -1,5 +1,4 @@
-﻿using MenuTab.Scripts.Settings;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace MenuTab.Scripts.Items

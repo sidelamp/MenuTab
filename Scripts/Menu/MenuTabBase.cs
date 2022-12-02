@@ -78,6 +78,21 @@ namespace MenuTab.Scripts.Menu
             Add(item);
         }
 
+        public void FindAndAdd()
+        {
+            var count = _itemParent.childCount;
+
+            for (int i = 0; i < count; i++)
+            {
+                var item = _itemParent.GetChild(i);
+
+                if (!item.TryGetComponent<ItemTabBase>(out var tab))
+                    continue;
+
+                Add(tab);
+            }
+        }
+
         private void OnValidate()
         {
             ChangeSapcing();
@@ -95,21 +110,6 @@ namespace MenuTab.Scripts.Menu
                     continue;
 
                 Remove(tab);
-            }
-        }
-
-        private void FindAndAdd()
-        {
-            var count = _itemParent.childCount;
-
-            for (int i = 0; i < count; i++)
-            {
-                var item = _itemParent.GetChild(i);
-
-                if (!item.TryGetComponent<ItemTabBase>(out var tab))
-                    continue;
-
-                Add(tab);
             }
         }
 
