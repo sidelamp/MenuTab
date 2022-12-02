@@ -1,2 +1,2 @@
 # MenuTab
-</img>![Снимок](https://user-images.githubusercontent.com/52670582/205261508-d254fddf-861a-4438-a5bc-e7c7d8b525d3.PNG)
+![2022-12-02-13-42-10](https://user-images.githubusercontent.com/52670582/205263652-d07275bc-89f1-44a8-b657-d316d951678a.gif)
